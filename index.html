@@ -6,17 +6,34 @@
     <title>Email Template</title>
     <style type="text/css">
       /* ----- Custom Font Import ----- */
-      @import url(https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic&subset=latin,latin-ext);
+      /* @import url(https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic&subset=latin,latin-ext); */
 
       /* ----- Text Styles ----- */
+      h3 {
+        margin: 0px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 27px;
+        font-weight: 900;
+      }
+
+      li {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 21px;
+        font-weight: 700;
+        margin-bottom: 15px;
+      }
+
       table {
-        font-family: 'Lato', Arial, sans-serif;
+        font-family: Arial, Helvetica, sans-serif;
         -webkit-font-smoothing: antialiased;
         -moz-font-smoothing: antialiased;
         font-smoothing: antialiased;
       }
+      .boldblack{
+        font-weight: 900;
+      }
 
-      @media only screen and (max-width: 700px) {
+      @media only screen and (max-width: 600px) {
         /* ----- Base styles ----- */
         .full-width-container {
           padding: 0 !important;
@@ -79,7 +96,7 @@
         /* ----- Hero subheader ----- */
         .hero-subheader__title {
           padding: 35px 15px 30px 15px !important;
-          font-size: 35px !important;
+          /* font-size:22pt !important; */
         }
 
         .hero-subheader__content {
@@ -139,6 +156,15 @@
           padding: 0 15px 0 15px !important;
         }
       }
+
+      .table_block {
+        border-radius: 18px;
+        -webkit-border-radius: 18px;
+        -moz-border-radius: 18px;
+        -khtml-border-radius: 18px;
+        /* border: 0px solid #000;
+        display: block; */
+      }
     </style>
 
     <!--[if gte mso 9
@@ -172,14 +198,14 @@
       <tr>
         <td align="center" valign="top">
           <!-- / 700px container -->
-          <table class="container" border="0" cellpadding="0" cellspacing="0" width="700" bgcolor="#ffffff" style="width: 700px">
+          <table class="container" border="0" cellpadding="0" cellspacing="0" width="600" bgcolor="#ffffff" style="width: 600px">
             <tr>
               <td align="center" valign="top">
                 <!-- / Header -->
-                <table class="container header" border="0" cellpadding="0" cellspacing="0" width="620" style="width: 620px">
+                <table class="container header" border="0" cellpadding="0" cellspacing="0" width="600" style="width: 600px">
                   <tr>
-                    <td class="hero-subheader__title" style="color: #926fac; font-size: 22px; font-family: Arial, Helvetica, sans-serif; font-weight: 700; padding: 35px 0 30px 0" align="center">
-                      ООО «Верваг Фарма» приветствует Вас и с радостью информирует о выходе в России <span style="font-weight: 900">впервые за 5 лет</span><sup>1</sup> нового комбинированного
+                    <td class="hero-subheader__title" style="color: #926fac; font-size: 22px; font-family: Arial, Helvetica, sans-serif; font-weight: 700; padding: 35px 37px 35px 37px" align="center">
+                      ООО «Верваг Фарма» приветствует Вас и&nbsp;с&nbsp;радостью информирует о&nbsp;выходе в&nbsp;России <span style="font-weight: 900">впервые за&nbsp;5&nbsp;лет</span><sup>1</sup> нового комбинированного
                       препарата железа — Ферро-Фольгамма Нео<sup>®</sup>.
                     </td>
                   </tr>
@@ -189,10 +215,10 @@
                 <!-- / Hero image -->
                 <table>
                   <tr>
-                    <td class="half-block__image" style="padding-left: 15px; padding-right: 15px; width: 700px; height: 325px" width="700" height="325" align="center">
+                    <td class="half-block__image" style="padding: 40px 50px; width: 600px;" width="600" align="center">
                       <!--[if gte mso 9]>
-                  <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="width: 700px; height: 325px;" width="700" height="325">
-                  <v:fill type="frame" src="https://raw.githubusercontent.com/Slicejack/mail-portfolio/master/img/img2.jpg" color="#488bd3" />
+                  <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="width: 600px;" width="600">
+                  <v:fill type="frame" src="https://raw.githubusercontent.com/Alxdayv/Email/master/IMAGE/Box_Ferro-Folgamma_Neo.png" color="#488bd3" />
                   <v:textbox inset="0,0,0,0">
                   <![endif]-->
 
@@ -200,66 +226,36 @@
                   </v:textbox>
                   </v:rect>
                   <![endif]-->
-                      <img src="https://raw.githubusercontent.com/Slicejack/mail-portfolio/master/img/img2.jpg" width="100%" alt="Препарат железа — Ферро-Фольгамма Нео®" />
+                      <img src="https://raw.githubusercontent.com/Alxdayv/Email/master/IMAGE/Box_Ferro-Folgamma_Neo.png" width="100%" alt="Препарат железа — Ферро-Фольгамма Нео®" />
                     </td>
                   </tr>
                 </table>
                 <!-- /// Hero image -->
 
-                <!-- / Half block -->
-                <table class="container half-block" border="0" cellpadding="0" cellspacing="0" width="100%" style="padding-top: 25px">
+                <!-- / Hero image -->
+                <table>
                   <tr>
-                    <td>
-                      <table class="container" border="0" cellpadding="0" cellspacing="0" width="100%">
-                        <tbody>
-                          <tr>
-                            <td rowspan="4" class="half-block__image" style="padding-left: 15px; width: 353px; height: 325px" width="353" height="325" background="img/img14.jpg">
-                              <!--[if gte mso 9]>
-                              <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="width: 353px; height: 325px;" width="353" height="325">
-                              <v:fill type="frame" src="img/img14.jpg" color="#488bd3" />
-                              <v:textbox inset="0,0,0,0">
-                              <![endif]-->
+                    <td class="half-block__image" style="width: 600px;" width="700" align="center">
+                      <!--[if gte mso 9]>
+                  <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="width: 600px;;" width="700">
+                  <v:fill type="frame" src="https://raw.githubusercontent.com/Alxdayv/Email/master/IMAGE/Scheme.png" color="#488bd3" />
+                  <v:textbox inset="0,0,0,0">
+                  <![endif]-->
 
-                              <!--[if gte mso 9]>
-                              </v:textbox>
-                              </v:rect>
-                              <![endif]-->
-                              <img src="https://raw.githubusercontent.com/Slicejack/mail-portfolio/master/img/img15.jpg" alt="" width="100%" />
-                            </td>
-                            <td class="half-block__content" style="width: 50%; padding: 0 25px 0 25px; font-size: 16px; line-height: 27px; color: #969696; text-align: center">
-                              <h2>ЖЕЛЕЗА СУЛЬФАТ</h2>
-                              <p>«Золотой стандарт» восполнения дефицита железа7</p>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td class="half-block__content" style="width: 50%; padding: 0 25px 0 25px; font-size: 16px; line-height: 27px; color: #969696; text-align: center">
-                              <h2>АСКОРБИНОВАЯ КИСЛОТА</h2>
-                              <p>Антиоксидант</p>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td class="half-block__content" style="width: 50%; padding: 0 25px 0 25px; font-size: 16px; line-height: 27px; color: #969696; text-align: center">
-                              <h2>КИШЕЧНОРАСТВОРИМЫЙ СЛОЙ</h2>
-                              <p>Железа сульфат высвобождается в месте непосредственного всасывания, для возможного снижения вероятных побочных эффектов<sup>6</sup></p>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td class="half-block__content" style="width: 50%; padding: 0 25px 0 25px; font-size: 16px; line-height: 27px; color: #969696; text-align: center">
-                              <h2>ФОЛИЕВАЯ КИСЛОТА</h2>
-                              <p>Стимулирует эритро- и гемопоэз<sup>6, 8</sup></p>
-                            </td>
-                          </tr>
-                        </tbody>
-                      </table>
+                      <!--[if gte mso 9]>
+                  </v:textbox>
+                  </v:rect>
+                  <![endif]-->
+                      <img src="https://raw.githubusercontent.com/Alxdayv/Email/master/IMAGE/Scheme.png" width="100%" alt="Препарат железа — Ферро-Фольгамма Нео®" />
                     </td>
                   </tr>
                 </table>
-                <!-- /// Half block -->
+                <!-- /// Hero image -->
 
                 <!-- / Subheader -->
-                <table class="container header" border="0" cellpadding="0" cellspacing="0" width="620" style="width: 620px">
+                <table class="container header" border="0" cellpadding="0" cellspacing="0" width="600" style="width: 600px">
                   <tr>
-                    <td class="hero-subheader__title" style="font-size: 28px; font-weight: bold; padding: 80px 0 15px 0" align="center">
+                    <td class="hero-subheader__title" style="font-size: 21px; font-weight: 700; color: #926fac; padding: 28px 0 15px 0" align="center">
                       Дозы и режим дозирования соответствуют мнению ведущих специалистов в лечении ЖДА<sup>3, 5</sup>
                     </td>
                   </tr>
@@ -270,7 +266,7 @@
                 <table class="container" border="0" cellpadding="0" cellspacing="0" width="100%" style="padding-top: 5px" align="center">
                   <tr>
                     <td align="center">
-                      <table class="container" border="0" cellpadding="0" cellspacing="0" width="620" align="center" style="border-bottom: solid 1px #000000; width: 90%">
+                      <table class="container" border="0" cellpadding="0" cellspacing="0" width="600" align="center" style="border-bottom: solid 1px #000000; width: 90%">
                         <tr>
                           <td align="center">&nbsp;</td>
                         </tr>
@@ -280,41 +276,76 @@
                 </table>
                 <!-- /// Divider -->
 
-                <!-- / Half block -->
-                <table class="container half-block" border="0" cellpadding="0" cellspacing="0" width="100%">
-                  <tr>
-                    <td>
-                      <table class="container" border="0" cellpadding="0" cellspacing="0" width="100%">
-                        <tr>
-                          <td class="half-block__content" style="width: 50%; padding: 0 25px 0 25px; font-size: 16px; line-height: 27px; color: #969696; text-align: center">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                            exercitation ullamco laboris.
-                          </td>
-
-                          <td class="half-block__image" style="width: 353px; height: 325px" width="353" height="325" background="img/img15.jpg">
-                            <!--[if gte mso 9]>
-													<v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="width: 353px; height: 325px;" width="353" height="325">
-													<v:fill type="frame" src="img/img15.jpg" color="#488bd3" />
-													<v:textbox inset="0,0,0,0">
-													<![endif]-->
-
-                            <!--[if gte mso 9]>
-													</v:textbox>
-													</v:rect>
-													<![endif]-->
-                          </td>
-                        </tr>
-                      </table>
-                    </td>
-                  </tr>
+                <table class="container" border="0" cellpadding="0" cellspacing="0" width="100%" style="padding-top: 5px" align="center">
+                  <tbody>
+                    <tr>
+                      <td>
+                        <table class="table_block" style="margin: 10px 36px; background-color: #b69dc7">
+                          <tbody>
+                            <tr>
+                              <td style="padding: 15px 20px; color: #eeeeee; padding-right: 15%">
+                                <h3>Показания<sup>2</sup></h3>
+                                <ul>
+                                  <li>Профилактика сочетанного дефицита железа и фолиевой кислоты в период беременности у взрослых</li>
+                                  <li>Дефицит железа и фолиевой кислоты у взрослых.</li>
+                                </ul>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <table class="table_block" style="margin: 10px 36px; background-color: #b69dc7">
+                          <tbody>
+                            <tr>
+                              <td style="padding: 15px 21px; color: #eeeeee; padding-right: 15%">
+                                <h3>Таблетка Ферро-Фольгамма Нео<sup>®2</sup></h3>
+                                <ul>
+                                  <li><span class="boldblack">Комбинированный</span> состав: 114 мг железа сульфата (36,77 мг элементарного железа), 0,8 мг фолиевой кислоты</li>
+                                  <li><span class="boldblack">Модифицированное</span> послойное высвобождение</li>
+                                  <li>Режим дозирования: <span class="boldblack">1 таблетка в сутки</span></li>
+                                </ul>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <table class="table_block" style="margin: 10px 36px; background-color: #c21b1c">
+                          <tbody>
+                            <tr>
+                              <td style="padding: 15px 20px; color: #eeeeee; padding-right: 15%">
+                                <h3>Ферро-Фольгамма Нео® — инновационная таблетка, современный подход<sup>* 2, 3, 4</sup></h3>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="hero-subheader__title" style="font-size: 16pt; font-weight: 700; color: #926fac; padding: 28px 0 15px 0" align="center">
+                        Ознакомиться с общей характеристикой лекарственного препарата:
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="hero-subheader__title" align="center">
+                        <a style="font-size: 23px; font-weight: 700; color: #926fac; padding: 28pt 0 15px 0" href="https://www.vidal.ru/drugs/ferro-folgamma-neo?utm_source=e-mail&utm_medium=mailinglist"
+                          >https://www.vidal.ru/drugs/ferro-folgamma-neo</a
+                        >
+                      </td>
+                    </tr>
+                  </tbody>
                 </table>
-                <!-- /// Half block -->
 
                 <!-- / Divider -->
-                <table class="container" border="0" cellpadding="0" cellspacing="0" width="100%" style="padding-top: 25px" align="center">
+                <table class="container" border="0" cellpadding="0" cellspacing="0" width="100%" style="padding-top: 5px;" align="center">
                   <tr>
                     <td align="center">
-                      <table class="container" border="0" cellpadding="0" cellspacing="0" width="620" align="center" style="border-bottom: solid 1px #eeeeee; width: 620px">
+                      <table class="container" border="0" cellpadding="0" cellspacing="0" width="600" align="center" style="border-bottom: solid 1px #000000; width: 90%">
                         <tr>
                           <td align="center">&nbsp;</td>
                         </tr>
@@ -324,294 +355,23 @@
                 </table>
                 <!-- /// Divider -->
 
-                <!-- / CTA Block -->
-                <table class="container cta-block" border="0" cellpadding="0" cellspacing="0" width="100%">
-                  <tr>
-                    <td align="center" valign="top">
-                      <table class="container" border="0" cellpadding="0" cellspacing="0" width="620" style="width: 620px">
-                        <tr>
-                          <td class="cta-block__title" style="padding: 35px 0 0 0; font-size: 26px; text-align: center">About Us</td>
-                        </tr>
-
-                        <tr>
-                          <td class="cta-block__content" style="padding: 20px 0 27px 0; font-size: 16px; line-height: 27px; color: #969696; text-align: center">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                          </td>
-                        </tr>
-
-                        <tr>
-                          <td align="center">
-                            <table class="container" border="0" cellpadding="0" cellspacing="0">
-                              <tr>
-                                <td class="cta-block__button" width="230" align="center" style="width: 200px">
-                                  <a
-                                    href="http://slicejack.com/"
-                                    style="
-                                      border: 3px solid #eeeeee;
-                                      color: #969696;
-                                      text-decoration: none;
-                                      padding: 15px 45px;
-                                      text-transform: uppercase;
-                                      display: block;
-                                      text-align: center;
-                                      font-size: 16px;
-                                    "
-                                    >Visit Us</a
-                                  >
-                                </td>
-                              </tr>
-                            </table>
-                          </td>
-                        </tr>
-                      </table>
-                    </td>
-                  </tr>
+                <table class="class="container" border="0" cellpadding="0" cellspacing="0" width="100%" style="padding: 15px 30px;" align="center"">
+                  <tbody>
+                    <tr>
+                      <td align="justify" style="font-family: Arial, Helvetica, sans-serif; font-size: 7pt">
+                        <sup>*</sup> В сравнении с Ферро-Фольгамма<sup>®</sup>. 1. IQVIA 2018-2022. 2. ОХЛП Ферро-Фольгамма Нео®, РУ № ЛП-№(000586)-(РГ-RU). 3. Snook J. et al. British Society of Gastroenterology guidelines
+                        for the management of iron deficiency anaemia in adults. Gut 2021; 0: 1–22. doi:10.1136/gutjnl-2021-325210. 4. Auerbach M. Treatment of iron deficiency in adults. UpToDate,
+                        2022. Доступ 29.10.2022. 5. Клинические рекомендации — Железодефицитная анемия — 2021–2022–2023 (09.09.2021) — Утв. Минздравом РФ. 6. Федорова Т. А. и соавт. Железодефицитная
+                        анемия при беременности: возможности коррекции.Про- блемы репродукции, 2, 2018. 7. Баранов И. И. и соавт. Клинические рекомендации по диагностике и лечению железодефицитных
+                        состояний: взгляд из 2022 г. // Акушерство и гинекология: новости, мнения, обучение. 2022. Т. 10, № 2. С. 56–64. 8. Круглов Д. С. Лекарственные средства, применяемые для
+                        профилактики и лечения железодефицитных состояний // Научное обозрение. Медицинские науки. 2017. № 4. С. 26–41.
+                      </td>
+                      <td>
+                        <img style="padding: 15px;" src="https://raw.githubusercontent.com/Alxdayv/Email/master/IMAGE/logo_worwag.png" />
+                      </td>
+                    </tr>
+                  </tbody>
                 </table>
-                <!-- /// CTA Block -->
-                //////////////////////////////////////////////////////////////////////////////////////
-                <table class="container hero-subheader" border="0" cellpadding="0" cellspacing="0" width="620" style="width: 620px">
-                  <tr>
-                    <td class="hero-subheader__title" style="font-size: 43px; font-weight: bold; padding: 80px 0 15px 0" align="left">Product Design Portfolio</td>
-                  </tr>
-
-                  <tr>
-                    <td class="hero-subheader__content" style="font-size: 16px; line-height: 27px; color: #969696; padding: 0 60px 90px 0" align="left">
-                      Sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-                      ut aliquip ex ea commodo.
-                    </td>
-                  </tr>
-                </table>
-                <!-- /// Hero image -->
-
-                <!-- / Title -->
-                <table class="container title-block" border="0" cellpadding="0" cellspacing="0" width="100%">
-                  <tr>
-                    <td align="center" valign="top">
-                      <table class="container" border="0" cellpadding="0" cellspacing="0" width="620" style="width: 620px">
-                        <tr>
-                          <td style="border-bottom: solid 1px #eeeeee; padding: 35px 0 18px 0; font-size: 26px" align="left">Recent Works</td>
-                        </tr>
-                      </table>
-                    </td>
-                  </tr>
-                </table>
-                <!-- /// Title -->
-
-                <!-- / Projects list -->
-                <table class="container projects-list" border="0" cellpadding="0" cellspacing="0" width="100%" style="padding-top: 25px">
-                  <tr>
-                    <td>
-                      <table class="container" border="0" cellpadding="0" cellspacing="0" width="100%">
-                        <tr>
-                          <td align="left">
-                            <a href="#"><img src="img/img1.jpg" width="235" height="235" border="0" style="display: block" /></a>
-                          </td>
-
-                          <td align="left">
-                            <a href="#"><img src="img/img2.jpg" width="235" height="235" border="0" style="display: block" /></a>
-                          </td>
-
-                          <td align="left">
-                            <a href="#"><img src="img/img3.jpg" width="235" height="235" border="0" style="display: block" /></a>
-                          </td>
-                        </tr>
-
-                        <tr>
-                          <td align="left">
-                            <a href="#"><img src="img/img4.jpg" width="235" height="235" border="0" style="display: block" /></a>
-                          </td>
-
-                          <td align="left">
-                            <a href="#"><img src="img/img5.jpg" width="235" height="235" border="0" style="display: block" /></a>
-                          </td>
-
-                          <td align="left">
-                            <a href="#"><img src="img/img6.jpg" width="235" height="235" border="0" style="display: block" /></a>
-                          </td>
-                        </tr>
-                      </table>
-                    </td>
-                  </tr>
-                </table>
-                <!-- /// Projects list -->
-
-                <!-- / Title -->
-                <table class="container title-block" border="0" cellpadding="0" cellspacing="0" width="100%">
-                  <tr>
-                    <td align="center" valign="top">
-                      <table class="container" border="0" cellpadding="0" cellspacing="0" width="620" style="width: 620px">
-                        <tr>
-                          <td style="border-bottom: solid 1px #eeeeee; padding: 35px 0 18px 0; font-size: 26px" align="left">Simple text</td>
-                        </tr>
-                      </table>
-                    </td>
-                  </tr>
-                </table>
-                <!-- /// Title -->
-
-                <!-- / Paragraph -->
-                <table class="container paragraph-block" border="0" cellpadding="0" cellspacing="0" width="100%">
-                  <tr>
-                    <td align="center" valign="top">
-                      <table class="container" border="0" cellpadding="0" cellspacing="0" width="620" style="width: 620px">
-                        <tr>
-                          <td class="paragraph-block__content" style="padding: 25px 0 18px 0; font-size: 16px; line-height: 27px; color: #969696" align="left">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                          </td>
-                        </tr>
-                      </table>
-                    </td>
-                  </tr>
-                </table>
-                <!-- /// Paragraph -->
-                //////////////////////////////////////////////////////////////////////////////////////
-                <!-- / Divider -->
-                <table class="container" border="0" cellpadding="0" cellspacing="0" width="100%" style="padding-top: 25px" align="center">
-                  <tr>
-                    <td align="center">
-                      <table class="container" border="0" cellpadding="0" cellspacing="0" width="620" align="center" style="border-bottom: solid 1px #eeeeee; width: 620px">
-                        <tr>
-                          <td align="center">&nbsp;</td>
-                        </tr>
-                      </table>
-                    </td>
-                  </tr>
-                </table>
-                <!-- /// Divider -->
-
-                <!-- / Info Bullets -->
-                <table class="container info-bullets" border="0" cellpadding="0" cellspacing="0" width="100%" align="center">
-                  <tr>
-                    <td align="center">
-                      <table class="container" border="0" cellpadding="0" cellspacing="0" width="620" align="center" style="width: 620px">
-                        <tr>
-                          <td class="info-bullets__block" style="padding: 30px 30px 15px 30px" align="center">
-                            <table class="container" border="0" cellpadding="0" cellspacing="0" align="center">
-                              <tr>
-                                <td class="info-bullets__icon" style="padding: 0 15px 0 0">
-                                  <img src="img/img13.png" />
-                                </td>
-
-                                <td class="info-bullets__content" style="color: #969696; font-size: 16px">contact@example.com</td>
-                              </tr>
-                            </table>
-                          </td>
-
-                          <td class="info-bullets__block" style="padding: 30px 30px 15px 30px" align="center">
-                            <table class="container" border="0" cellpadding="0" cellspacing="0" align="center">
-                              <tr>
-                                <td class="info-bullets__icon" style="padding: 0 15px 0 0">
-                                  <img src="img/img11.png" />
-                                </td>
-
-                                <td class="info-bullets__content" style="color: #969696; font-size: 16px">(541) 754-3010</td>
-                              </tr>
-                            </table>
-                          </td>
-                        </tr>
-
-                        <tr>
-                          <td class="info-bullets__block" style="padding: 30px" align="center">
-                            <table class="container" border="0" cellpadding="0" cellspacing="0" align="center">
-                              <tr>
-                                <td class="info-bullets__icon" style="padding: 0 15px 0 0">
-                                  <img src="img/img12.png" />
-                                </td>
-
-                                <td class="info-bullets__content" style="color: #969696; font-size: 16px">New York, 222 West 23rd</td>
-                              </tr>
-                            </table>
-                          </td>
-
-                          <td class="info-bullets__block" style="padding: 30px" align="center">
-                            <table class="container" border="0" cellpadding="0" cellspacing="0" align="center">
-                              <tr>
-                                <td class="info-bullets__icon" style="padding: 0 15px 0 0">
-                                  <img src="img/img12.png" />
-                                </td>
-
-                                <td class="info-bullets__content" style="color: #969696; font-size: 16px">Paris, Champ de Mars 54</td>
-                              </tr>
-                            </table>
-                          </td>
-                        </tr>
-                      </table>
-                    </td>
-                  </tr>
-                </table>
-                <!-- /// Info Bullets -->
-
-                <!-- / Social nav -->
-                <table class="container" border="0" cellpadding="0" cellspacing="0" width="100%" align="center">
-                  <tr>
-                    <td align="center">
-                      <table class="container" border="0" cellpadding="0" cellspacing="0" width="620" align="center" style="border-top: 1px solid #eeeeee; width: 620px">
-                        <tr>
-                          <td align="center" style="padding: 30px 0 30px 0">
-                            <a href="#">
-                              <img src="img/img7.png" border="0" />
-                            </a>
-                          </td>
-
-                          <td align="center" style="padding: 30px 0 30px 0">
-                            <a href="#">
-                              <img src="img/img8.png" border="0" />
-                            </a>
-                          </td>
-
-                          <td align="center" style="padding: 30px 0 30px 0">
-                            <a href="#">
-                              <img src="img/img9.png" border="0" />
-                            </a>
-                          </td>
-
-                          <td align="center" style="padding: 30px 0 30px 0">
-                            <a href="#">
-                              <img src="img/img10.png" border="0" />
-                            </a>
-                          </td>
-                        </tr>
-                      </table>
-                    </td>
-                  </tr>
-                </table>
-                <!-- /// Social nav -->
-
-                <!-- / Footer -->
-                <table class="container" border="0" cellpadding="0" cellspacing="0" width="100%" align="center">
-                  <tr>
-                    <td align="center">
-                      <table class="container" border="0" cellpadding="0" cellspacing="0" width="620" align="center" style="border-top: 1px solid #eeeeee; width: 620px">
-                        <tr>
-                          <td style="text-align: center; padding: 50px 0 10px 0">
-                            <a href="#" style="font-size: 28px; text-decoration: none; color: #d5d5d5">MailPortfolio</a>
-                          </td>
-                        </tr>
-
-                        <tr>
-                          <td align="middle">
-                            <table width="60" height="2" border="0" cellpadding="0" cellspacing="0" style="width: 60px; height: 2px">
-                              <tr>
-                                <td align="middle" width="60" height="2" style="background-color: #eeeeee; width: 60px; height: 2px; font-size: 1px"><img src="img/img16.jpg" /></td>
-                              </tr>
-                            </table>
-                          </td>
-                        </tr>
-
-                        <tr>
-                          <td style="color: #d5d5d5; text-align: center; font-size: 15px; padding: 10px 0 60px 0; line-height: 22px">
-                            Copyright &copy; 2015 <a href="http://slicejack.com/" target="_blank" style="text-decoration: none; border-bottom: 1px solid #d5d5d5; color: #d5d5d5">Slicejack</a>.
-                            <br />All rights reserved.
-                          </td>
-                        </tr>
-                      </table>
-                    </td>
-                  </tr>
-                </table>
-                <!-- /// Footer -->
               </td>
             </tr>
           </table>
